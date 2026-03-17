@@ -7,6 +7,31 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
+#define JP_DOUBLE_QUOTES       AT                // "
+#define JP_AMPERSAND           CARET             // &
+#define JP_SINGLE_QUOTE        AMPERSAND         // '
+#define JP_EQUAL               UNDER             // =
+#define JP_CARET               EQUAL             // ^
+#define JP_YEN                 0x89              // ¥
+#define JP_PLUS                COLON             // +
+#define JP_TILDE               PLUS              // ~
+#define JP_PIPE                LS(0x89)          // |
+#define JP_AT                  LEFT_BRACKET      // @
+#define JP_COLON               SINGLE_QUOTE      // :
+#define JP_ASTERISK            DOUBLE_QUOTES     // *
+#define JP_BACKQUOTE           LEFT_BRACE        // `
+#define JP_UNDER               LS(0x87)          // _
+#define JP_LEFT_BRACKET        RIGHT_BRACKET     // [
+#define JP_RIGHT_BRACKET       BACKSLASH         // ]
+#define JP_LEFT_PARENTHESIS    ASTERISK          // (
+#define JP_RIGHT_PARENTHESIS   LEFT_PARENTHESIS  // )
+#define JP_LEFT_BRACE          RIGHT_BRACE       // {
+#define JP_RIGHT_BRACE         PIPE              // }
+#define JP_KANA                LANGUAGE_1        // かな
+#define JP_EISU                LANGUAGE_2        // 英数
+#define JP_HANZEN              GRAVE             // 半角/全角
+
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -111,10 +136,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp RIGHT_BRACKET  &kp SINGLE_QUOTE   &kp TILDE       &kp LEFT_PARENTHESIS  &kp MINUS
+&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp RIGHT_BRACKET  &kp SINGLE_QUOTE   &kp JP_TILDE       &kp LEFT_PARENTHESIS  &kp MINUS
 &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_6       &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                   &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                      &kp PIPE
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp JP_YEN
+&trans                   &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                      &kp JP_PIPE
             >;
         };
 
