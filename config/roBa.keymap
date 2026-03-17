@@ -138,7 +138,7 @@
             bindings = <
 &kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp LEFT_BRACKET  &kp JP_CARET   &kp JP_LEFT_PARENTHESIS       &kp JP_RIGHT_PARENTHESIS  &kp JP_YEN
 &kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDER    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp JP_LEFT_BRACKET  &kp JP_RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp JP_YEN
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp JP_LEFT_BRACKET  &kp JP_RIGHT_BRACKET  &kp JP_LEFT_BRACE  &kp JP_RIGHT_BRACE       &kp JP_YEN
 &trans                   &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                     &kp JP_PIPE
             >;
         };
