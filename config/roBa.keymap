@@ -115,7 +115,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                          &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                          &kp G        &kp LS(LG(S))             &kp MINUS      &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
+&kp A             &kp S         &kp D         &kp F                          &kp G        &kp LS(LG(S))             &kp JP_EQUAL   &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp SINGLE_QUOTE          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
@@ -136,8 +136,8 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp LEFT_BRACKET  &kp JP_CARET   &kp JP_RIGHT_PARENTHESIS       &kp JP_LEFT_PARENTHESIS  &kp MINUS
-&kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDER  &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
+&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp LEFT_BRACKET  &kp JP_CARET   &kp JP_LEFT_PARENTHESIS       &kp JP_RIGHT_PARENTHESIS  &kp JP_YEN
+&kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDER    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp JP_LEFT_BRACKET  &kp JP_RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp JP_YEN
 &trans                   &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                     &kp JP_PIPE
             >;
