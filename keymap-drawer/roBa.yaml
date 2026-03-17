@@ -11,18 +11,18 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - {t: A, h: LEFT CONTROL}
+  - A
   - S
   - D
   - F
   - G
   - Sft+Gui+S
-  - '-'
+  - _
   - H
   - J
   - {t: K, h: SCROLL}
   - L
-  - ENTER
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
-  - {t: ▽, type: trans}
+  - '&tog_ls'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,18 +94,18 @@ layers:
   - '8'
   - '9'
   - +
-  - ']'
-  - ''''
-  - '~'
+  - '['
+  - '='
+  - '*'
   - (
-  - '-'
+  - '0x89'
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
   - Ctl+Alt+KP 0
-  - _
+  - Sft+0x87
   - '6'
   - '7'
   - '8'
@@ -118,11 +118,11 @@ layers:
   - .
   - '='
   - {t: ▽, type: trans}
-  - '['
   - ']'
-  - '{'
-  - '}'
   - \
+  - '}'
+  - '|'
+  - '0x89'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
+  - Sft+0x89
   ARROW:
   - ESCAPE
   - Ctl+Sft+TAB
@@ -157,7 +157,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
+  - DOWN ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,8 +313,6 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
   k: '"'
 - p: [24, 25]
